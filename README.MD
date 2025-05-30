@@ -13,6 +13,7 @@ curl -X POST http://localhost:8080/quotes \ -H "Content-Type: application/json" 
 curl -X POST http://localhost:8080/quotes -H "Content-Type: application/json" -d '{"author":"Confucius", "quote":"Life is simple, but we insist on making it complicated."}'
 
 Следующие команды работают без ошибок:
+
     Получение всех цитат:
 curl http://localhost:8080/quotes
 
